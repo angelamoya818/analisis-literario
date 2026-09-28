@@ -1,17 +1,21 @@
-# Análisis nutricional y económico de productos de Mercadona
+# Análisis de obras literarias y autores
 
 ## Descripción del problema
-En los supermercados hay una gran cantidad de productos y cada uno tiene unos valores nutricionales y precio. Esta información está distribuida entre los distintos productos y es complicado comparar productos por valores nutricionales y precio.
-Entre los estudiantes es bastante común que al estar estudiando fuera de casa queremos mantener una dieta saludable intentando no gastar mucho dinero en la compra.
-Sin embargo, muchos productos de gama fitness pueden tener un coste elevado y ni siquiera sabemos si realmente nos estan ofreciendo una mejora en cuanto a valores nutricionales por este alto precio que estamos pagando, ya que comparar manualmente sus características es costoso y requiere consultar muchos productos.
-Por ello se plantea un sistema que recopile la información de productos de Mercadona y permita analizar la relación entre su precio y sus valores nutricionales. Así podremos identificar y comparar alimentos según indicadores como la cantidad de proteínas, calorías, grasas o hidratos de carbono que aportan con relación a su coste, facilitando encontrar alternativas con una buena relación nutricional/precio sin tener que analizar los productos uno a uno. 
+Existen una gran cantidad de obras literarias y cada una tiene diferentes características, como autor, género, año de publicación, temas o valoración. Esta información al estar distribuida entre numerosas obras y autores, resulta complicado analizarla y compararla.
+Entre las personas a las que nos gusta leer es habitual que después de leer un libro que nos ha gustado queramos conocer obras similares o descubrir qué otras obras ha escrito un autor a lo largo de su trayectoria. Sin embargo, cuando un autor tiene muchas obras o escribe sobre múltiples temas y géneros es complicado conocer estas relaciones y comparar la información. 
+Además, conocer las trayuectoria de un autor no consiste únicamente en consultar la lista de obras que ha publicado. A lo largo de su vida pueden producirse acontecimientos que aparecen reflejados en los temas tratados en sus obras. Cuando existe una gran cantidad de información bibliográfica y literaria resulta difícil relacionar manualmente estos aspectos y comprobar qué coincidencias pueden existir entre la vida del autor y los temas presentes en sus obras.
+Por tanto, existe una dificultad para analizar conjuntamente las obras literarias, sus temas, géneros, autores, valoraciones y la información relacionada con la trayectoria de estos autores. Esta dificultad es especialmente relevante cuando se quiere conocer las relaciones entre diferentes obras, estudiar la evolución de un autor a lo largo del tiempo o identificar posibles relaciones entre su trayectoria y los temas que aparecen en sus obras.
+
 
 ## Datos disponibles
-La información necesaria para realizar el análisis se obtendrá de la tienda online de Mercadona. La página contiene información de cada alimento (nombre, categoría, cantidad, precio...) además de la información nutricional asociada a los productos, por lo que esta se incorpora al análisis de cantidad de proteínas, hidratos de carbono, calorías y otros valores nutricionales.
+La información necesaria para realizar el anaálisis se obtendrá de fuentes de datos bibliográficos y biográficos que proporcionen información sobre obras literarias y autores. Los datos pueden incluir información de cada obra, como el título, año de publicación, género, temas y descripción, además de información relacionada con sus valoraciones. También se dispondrá de información sobre los autores y las obras que han publicado, lo que permitirá estudiar su trayectoria y diferentes tipos de obra que se han escrito.
+La combinación de esta información permitirá estudiar tanto las relaciones entre diferentes obras como la trayectoria de los autores y las posibles coincidencias entre determinados aspectos de su vida y los temas presentes en sus obras.
 
 ## Lógica del problema
-El problema consiste en poder comparar productos que pueden tener diferentes precios y características nutricionales. Para realizar una comparación será necesario normalizar las cantidades de los productos a unas mismas unidades. A partir de estos datos se podrán calcular diferentes indicadores que relacionen el precio con los valores nutricionales de cada producto (cantidad de proteínas por 100 gramos, cantidad de calorías por 100 gramos, precio por 100 gramos...).
-Estos cálculos permitirán analizar productos y comparar sus características nutricionales y cuánto cuestan.
+El problema consiste en poder relacionar y comparar diferentes obras literarias a partir de sus características, así como analizar la trayectoria de los autores a través de las obras que han publicado.
+Para ello será necesario procesar la información disponible y relacionar características como los géneros y temas que comparten diferentes obras. También será necesario ordenar y agrupar las obras de cada autor según su fecha de publicación para estudiar los cambios en su producción literaria a lo largo del tiempo.
+Además, se analizará la información biográfica de los autores junto con los temas y características de sus obras para identificar posibles coincidencias entre acontecimientos o aspectos de su trayectoria y los contenidos presentes en sus obras. Estas relaciones se mostrarán como posibles coincidencias a partir de los datos disponibles.
+A partir de esta información se podrán analizar las similitudes entre obras, los temas y géneros presentes en ellas, la evolución de los autores, sus valoraciones y las posibles relaciones entre su trayectoria y sus obras.
 
 ## Role-play
 ![Foto del role-play](docs/role-play/roleplay.jpeg)
