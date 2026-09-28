@@ -1,21 +1,15 @@
 # Análisis de obras literarias y autores
 
 ## Descripción del problema
-Existen una gran cantidad de obras literarias y cada una tiene diferentes características, como autor, género, año de publicación, temas o valoración. Esta información al estar distribuida entre numerosas obras y autores, resulta complicado analizarla y compararla.
-Entre las personas a las que nos gusta leer es habitual que después de leer un libro que nos ha gustado queramos conocer obras similares o descubrir qué otras obras ha escrito un autor a lo largo de su trayectoria. Sin embargo, cuando un autor tiene muchas obras o escribe sobre múltiples temas y géneros es complicado conocer estas relaciones y comparar la información. 
-Además, conocer las trayuectoria de un autor no consiste únicamente en consultar la lista de obras que ha publicado. A lo largo de su vida pueden producirse acontecimientos que aparecen reflejados en los temas tratados en sus obras. Cuando existe una gran cantidad de información bibliográfica y literaria resulta difícil relacionar manualmente estos aspectos y comprobar qué coincidencias pueden existir entre la vida del autor y los temas presentes en sus obras.
-Por tanto, existe una dificultad para analizar conjuntamente las obras literarias, sus temas, géneros, autores, valoraciones y la información relacionada con la trayectoria de estos autores. Esta dificultad es especialmente relevante cuando se quiere conocer las relaciones entre diferentes obras, estudiar la evolución de un autor a lo largo del tiempo o identificar posibles relaciones entre su trayectoria y los temas que aparecen en sus obras.
-
+Cuando me gusta un libro que me acabo de leer, muchas veces quiero encontrar uno parecido, pero no siempre es fácil saber qué obras tienen temas, géneros o características similares. 
+También puede ocurrir que cuando descubres a un autor que te ha gustado por la forma en la que escribe y quiera conocer más de él, qué obras ha escrito, sus géneros o los temas que trata. Esta información suele estar repartida en distintas fuentes, por lo que compararla y relacionarla es complicado.
 
 ## Datos disponibles
-La información necesaria para realizar el anaálisis se obtendrá de fuentes de datos bibliográficos y biográficos que proporcionen información sobre obras literarias y autores. Los datos pueden incluir información de cada obra, como el título, año de publicación, género, temas y descripción, además de información relacionada con sus valoraciones. También se dispondrá de información sobre los autores y las obras que han publicado, lo que permitirá estudiar su trayectoria y diferentes tipos de obra que se han escrito.
-La combinación de esta información permitirá estudiar tanto las relaciones entre diferentes obras como la trayectoria de los autores y las posibles coincidencias entre determinados aspectos de su vida y los temas presentes en sus obras.
+La información necesaria para este problema se puede obtener de fuentes bibliográficas y literarias disponibles sobre las obras y sus autores. Entre esa información se encuentran datos como el título, autor, fecha de publicación, género y temas asociados a las obras, además de información acerca de la trayectoria de los autores. 
 
 ## Lógica del problema
-El problema consiste en poder relacionar y comparar diferentes obras literarias a partir de sus características, así como analizar la trayectoria de los autores a través de las obras que han publicado.
-Para ello será necesario procesar la información disponible y relacionar características como los géneros y temas que comparten diferentes obras. También será necesario ordenar y agrupar las obras de cada autor según su fecha de publicación para estudiar los cambios en su producción literaria a lo largo del tiempo.
-Además, se analizará la información biográfica de los autores junto con los temas y características de sus obras para identificar posibles coincidencias entre acontecimientos o aspectos de su trayectoria y los contenidos presentes en sus obras. Estas relaciones se mostrarán como posibles coincidencias a partir de los datos disponibles.
-A partir de esta información se podrán analizar las similitudes entre obras, los temas y géneros presentes en ellas, la evolución de los autores, sus valoraciones y las posibles relaciones entre su trayectoria y sus obras.
+El problema requiere procesar y relacionar información sobre diferentes obras y autores. Será necesario extraer y analizar información de las obras para poder identificar características comunes entre ellas. También será necesario comparar las obras de un mismo autor teniendo en cuenta su fecha de publicación para estudiar la evolución de los temas y géneros presentes en su producción literaria. 
+Así el procesamiento de la información permitirá obtener relaciones entre las obras y analizar la evolución de un autor a partir del conjunto de su producción literaria.
 
 ## Role-play
 ![Foto del role-play](docs/role-play/roleplay.jpeg)
