@@ -13,19 +13,13 @@ No todos los contenedores pueden utilizarse para todos los pedidos, estos deben 
 Por tanto, para planificar los próximos pedidos es necesario relacionar la información de los pedidos con la situación y características de los contenedores. Esto permite determinar si la flota será suficiente para atender a las necesidades previstas o si habrá que posicionar previamente determinados contenedores.
 
 ## Objetivo
-
 El objetivo es analizar la información disponible sobre los contenedores, sus movimientos, características, estados y pedidos para poder planificar la disponibilidad de la flota ante las necesidades futuras de los clientes.
 A partir de esta información será necesario determinar qué contenedores podrán estar disponibles para los próximos pedidos, comprobar cuáles cumplen sus requisitos técnicos y de inspección, y analizar si habrá suficientes unidades en las ubicaciones donde sean necesarias.
 También será necesario analizar la información histórica de los contenedores para conocer sus períodos de actividad e inactividad y su utilización durante un período determinado.
 
 ## Datos y aproximación del problema
-
-Para abordar el problema se dispone de información procedente de los registros utilizados en la gestión logística de la empresa.
-Los datos relacionados con los contenedores permiten conocer sus características y su estado. Entre ellos se encuentran información sobre su capacidad, longitud, código de cisterna y equipamiento, así como la información relacionada con sus inspecciones y certificaciones periódicas.
-También es necesario disponer de información relacionada con la actividad de los contenedores, como sus movimientos, ubicaciones, estados, pedidos asignados y fechas relevantes para determinar su disponibilidad.
-Por otra parte, los pedidos contienen información sobre las necesidades de los clientes, como las fechas y lugares en los que se necesitan los contenedores y las características que deben cumplir.
-La relación de estos datos permite estudiar la evolución de cada contenedor y determinar cuáles pueden ser adecuados para los pedidos previstos. También permite analizar si la cantidad y ubicación de los contenedores disponibles será suficiente àar atender los pedidos futuros o si habrá que posicionarlos.
-
+Para abordar el problema se dispone de información procedente de los registros utilizados en la gestión logística de la empresa. Actualmente se dispone de una exportación con información de los contenedores que incluye datos como el identificador del contenedor, si está vacío o cargado, la mercancía, el estado de planificación, la dirección y ciudad actuales, la dirección y ciudad de destino, el viaje, la fecha de finalización, el estado de integración, la fecha de última actualización y la ubicación. Además, los datos relacionados con los contenedores permiten conocer sus características y su estado. Entre ellos se encuentran información sobre su capacidad, longitud, código de cisterna y equipamiento, así como la información relacionada con sus inspecciones y certificaciones periódicas.
+También se dispone de información relacionada con la actividad de los contenedores, como sus movimientos, ubicaciones, estados, pedidos asignados y fechas relevantes para determinar su disponibilidad. Por otra parte, los pedidos contienen información sobre las necesidades de los clientes, como las fechas y lugares en los que se necesitan los contenedores y las características que deben cumplir. La relación de estos datos permite estudiar la evolución de cada contenedor y determinar cuáles pueden ser adecuados para los pedidos previstos. También permite analizar si la cantidad y ubicación de los contenedores disponibles será suficiente para atender los pedidos futuros o si habrá que posicionarlos.
 
 ## Role-play
 ![Foto del role-play](docs/role-play/roleplay.jpeg)
