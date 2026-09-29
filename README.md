@@ -12,33 +12,56 @@ La información disponible permite conocer diariamente dónde se encuentra cada 
 ## Datos y aproximación del problema
 Para estudiar el problema se dispone de exportaciones procedentes del sistema utilizado en la gestión logística de la empresa. La información disponible incluye datos sobre los contenedores, sus viajes y sus características.
 Los datos de cada contenedor incluyen, entre otros:
+
 -Identificador del contenedor.
+
 -Situación de vacío o cargado.
+
 -Mercancía.
+
 -Estado de planning.
+
 -Dirección y ciudad actuales.
+
 -Dirección y ciudad de destino.
+
 -Identificador de viaje.
+
 -Fecha de fin del viaje, correspondiente a la descarga del contenedor.
+
 -Información relacionada con ADR.
+
 -Alertas.
+
 -Aprobación CSC.
+
 -Aprobación IMDG.
+
 -Capacidad real.
+
 -Compresor.
+
 -Código de cisterna.
+
 -Código del tipo de vehículo.
+
 -Código ISO.
+
 -Dimensiones de la junta de boca.
+
 -Disco de ruptura de válvula.
+
 -Espesor de mamparos.
+
 -Espesor de rompeolas.
+
 -Característica GOT.
+
 También se dispone de información relacionada con los pedidos de los clientes, en los que se establece la cantidad de contenedores necesarios, el lugar donde se necesitan y las características que deben cumplir.
 La información de los viajes permite relacionar cada contenedor con una operación y conocer la fecha en la que dicha operación termina y el contenedor vuelve a estar disponible. Las exportaciones se obtienen diariamente, por lo que la información disponible corresponde a diferentes momentos de la actividad de la flota. El problema consiste en trabajar con esta información para poder estudiar la evolución de los contenedores a lo largo del tiempo y la situación de aquellos que tienen viajes asignados con fechas posteriores.
 
 ## Role-play
 ![Foto del role-play](docs/role-play/roleplay.jpeg)
-ter
+
 ## Configuración del repositorio 
 - [Configuración del entorno](docs/configuracion/configuracion.md)
