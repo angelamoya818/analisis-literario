@@ -1,0 +1,7 @@
+# Personas
+
+## Esperanza — Responsable de logística
+Mi madre es Responsable de logística y coordinación de una empresa de transporte intermodal de mercancías líquidas a granel por carretera y ferrocarril. En su trabajo tiene que gestionar una flota de más de 800 contenedores y coordina los recursos necesarios para atender pedidos de los clientes. 
+A medida que van llegando nuevos pedidos, necesita comprobar qué contenedores puede utilizar. Para planificar esto es necesario tener en cuenta ubicación de cada contenedor, su estado, los viajes que tiene asignados, la fecha de finalización de estos viajes y las características que determinan si puede utilizarse un contenedor para una determinada operación. 
+Llevar a cabo la planificación de tantos pedidos teniendo en cuenta todos los contenedores, sus diferentes características y las restricciones que pueden existir según la mercancía que hayan transportado anteriormente resulta complicado. Estas condiciones pueden hacer que un contenedor que se encuentra disponible no pueda utilizarse para un determinado pedido.
+La planificación se complica aún más por la distribución de los contenedores. Cuando un pedido requiere un contenedor en una determinada ubicación y no hay un contenedor adecuado disponible allí, puede ser necesario posicionar un contenedor desde otra ubicación.

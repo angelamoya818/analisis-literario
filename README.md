@@ -10,55 +10,22 @@ El problema surge en la planificación diaria de la flota. La información dispo
 La información disponible permite conocer diariamente dónde se encuentra cada contenedor, su estado y la operación que tiene asociada. Sin embargo, cuando se necesita consultar la situación de un período anterior, resulta necesario conocer las diferentes situaciones por las que ha pasado cada contenedor durante ese período. Esta información es relevante para la responsable de logística, que necesita conocer dónde se encontraba cada contenedor durante la última semana o el último mes y cuál era su situación en cada momento, por ejemplo, si estaba vacío, cargado, limpio o sucio. Además, los contenedores pueden tener viajes ya asignados. En los datos disponibles, el identificador de viaje permite identificar el viaje asociado a cada contenedor y la fecha de fin corresponde a la descarga del contenedor. Una vez realizada dicha descarga, el contenedor vuelve a estar disponible. Por tanto, la situación actual de un contenedor no es suficiente para conocer su disponibilidad en una fecha posterior. Para ello hay que tener en cuenta que algunos contenedores están asociados a viajes que todavía no han finalizado y que cada contenedor tiene unas características determinadas. Esta situación dificulta la planificación de los contenedores cuando se necesita conocer qué contenedores estarán disponibles en los próximos días y cuál será su situación en ese momento. También dificulta reconstruir la evolución de un contenedor cuando se necesita consultar dónde estaba o qué estado tenía durante un período anterior, ya que no se nos da esta información solo donde está el día de hoy.
 
 ## Datos y aproximación del problema
-Para estudiar el problema se dispone de exportaciones procedentes del sistema utilizado en la gestión logística de la empresa. Los datos necesarios han sido aportados por la responsable de logística de la empresa autorizándome para usarlos de forma académica protegidos por la Ley de protección de datos, quitando la información de los clientes. La información disponible incluye datos sobre los contenedores, sus viajes y sus características.
-Los datos de cada contenedor incluyen, entre otros:
+Para estudiar el problema se dispone de exportaciones procedentes del sistema utilizado en la gestión logística de la empresa. Los datos necesarios han sido aportados por la responsable de logística para su uso académico, eliminando la información identificativa de los clientes.
+La información disponible incluye datos sobre los contenedores, sus viajes y sus características, así como información necesaria para representar los pedidos que deben ser atendidos.
 
--Identificador del contenedor.
+Las variables necesarias para resolver el problema están descritas en:
+- [Variables](docs/variables.md)
 
--Situación de vacío o cargado.
+Los datos reales anonimizados no se incluyen en esta documentación. Se utilizarán posteriormente durante el desarrollo del proyecto cuando sean necesarios.
 
--Mercancía.
+## Planificación del proyecto
+El proyecto se ha dividido en diferentes etapas. Cada milestone define un producto mínimamente viable sobre el que se podrá continuar trabajando en la siguiente etapa.
+La planificación se ha realizado a partir de los usuarios del proyecto, sus necesidades y los recorridos que realizan al utilizar la solución.
 
--Estado de planning.
-
--Dirección y ciudad actuales.
-
--Dirección y ciudad de destino.
-
--Identificador de viaje.
-
--Fecha de fin del viaje, correspondiente a la descarga del contenedor.
-
--Información relacionada con ADR.
-
--Alertas.
-
--Aprobación CSC.
-
--Aprobación IMDG.
-
--Capacidad real.
-
--Compresor.
-
--Código de cisterna.
-
--Código del tipo de vehículo.
-
--Código ISO.
-
--Dimensiones de la junta de boca.
-
--Disco de ruptura de válvula.
-
--Espesor de mamparos.
-
--Espesor de rompeolas.
-
--Característica GOT.
-
-También se dispone de información relacionada con los pedidos de los clientes, en los que se establece la cantidad de contenedores necesarios, el lugar donde se necesitan y las características que deben cumplir.
-La información de los viajes permite relacionar cada contenedor con una operación y conocer la fecha en la que dicha operación termina y el contenedor vuelve a estar disponible. Las exportaciones se obtienen diariamente, por lo que la información disponible corresponde a diferentes momentos de la actividad de la flota. El problema consiste en trabajar con esta información para poder estudiar la evolución de los contenedores a lo largo del tiempo y la situación de aquellos que tienen viajes asignados con fechas posteriores.
+- [Personas](docs/personas.md)
+- [Historias de usuario](docs/historias-de-usuario.md)
+- [User journays](docs/user-journays.md)
+- [Milestones](docs/milestones.md)
 
 ## Role-play
 ![Foto del role-play](docs/role-play/roleplay.jpeg)
